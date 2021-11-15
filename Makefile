@@ -1,7 +1,13 @@
 run: build
+	echo "Executing...\n"
 	./main
-	rm -f ./main
+	echo "\nCleanup in process...\n"
+	@rm -f ./main
+	echo "Cleanup complete!\n"
 
 build:
-	g++ main.cpp -o main
+	echo "Building file ./main...\n"
+	@g++ main.cpp -o main
+	echo "Successfully built file!"
+	
 

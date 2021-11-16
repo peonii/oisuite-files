@@ -17,7 +17,3 @@ silentrun: silentbuild
 silentbuild:
 	@g++ main.cpp -o main
 
-run_test:
-	@g++ generate_tests.cpp -o gent
-	@./gent
-	@rm -f ./gent

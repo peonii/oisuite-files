@@ -7,9 +7,6 @@ int32_t main(void) {
      * Make sure to make it respect the following guidelines:
      *
      * The testcase should be printed to stdout.
-     *
-     *
-     * 
      */
     return 0;
 }

@@ -1,6 +1,9 @@
 #include <bits/stdc++.h>
 
 int32_t main(void) {
+    std::ios_base::sync_with_stdio(false);
+    std::cin.tie(NULL);
+    std::cout.tie(NULL);
     srand(time(NULL));
     /*
      * Here you can write your testcase generator!

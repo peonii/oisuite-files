@@ -9,11 +9,3 @@ build:
 	@echo "Building file ./main...\n"
 	@g++ main.cpp -o main
 	@echo "Successfully built file!"
-	
-silentrun: silentbuild
-	@./main
-	@rm -f ./main
-
-silentbuild:
-	@g++ main.cpp -o main
-

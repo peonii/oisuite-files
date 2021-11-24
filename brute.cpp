@@ -1,8 +1,9 @@
 #include <bits/stdc++.h>
 
 int32_t main(void) {
-    ios_base::sync_with_stdio(false);
+    std::ios_base::sync_with_stdio(false);
     std::cin.tie(NULL);
+    std::cout.tie(NULL);
     std::cout << "Hello, world!";
     
     /*
